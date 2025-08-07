@@ -9,11 +9,16 @@ class ComposerStaticInitd57726c5158358a209392308c2c9e016
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
+            'Mcbankske\\Countries\\Database\\Seeders\\' => 37,
             'Mcbankske\\Countries\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Mcbankske\\Countries\\Database\\Seeders\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/database/seeders',
+        ),
         'Mcbankske\\Countries\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
