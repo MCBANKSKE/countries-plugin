@@ -1,0 +1,21 @@
+{
+    "name": "mcbankske/countries",
+    "description": "Reusable Laravel plugin for countries, states, and cities",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Mcbankske\\Countries\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Mcbankske\\Countries\\CountriesServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
